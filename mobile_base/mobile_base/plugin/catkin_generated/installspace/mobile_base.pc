@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: mobile_base
+Description: Description of mobile_base
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

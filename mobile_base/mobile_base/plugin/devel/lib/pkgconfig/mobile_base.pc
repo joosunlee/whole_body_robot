@@ -1,0 +1,8 @@
+prefix=/home/harco/catkin_ws/src/mobile_base/plugin/devel
+
+Name: mobile_base
+Description: Description of mobile_base
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

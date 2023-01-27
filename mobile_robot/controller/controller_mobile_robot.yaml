@@ -1,0 +1,48 @@
+mobile_robot:
+
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 1000 
+
+
+  left_front_arm_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: body_lf_wheel
+    pid: {p: 10, i: 10, d: 0.1}
+
+  right_front_arm_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: body_rf_wheel
+    pid: {p: 10, i: 10, d: 0.1}
+
+  left_back_arm_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: body_lb_wheel
+    pid: {p: 10, i: 10, d: 0.1}
+    
+  right_back_arm_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: body_rb_wheel
+    pid: {p: 10, i: 10, d: 0.1}
+
+
+ 
+
+    
+# # velocity 
+#   f_l_prismatic_joint_effort_controller:
+#     type: effort_controllers/JointEffortController
+#     joint: f_l_ew_joint
+   
+#   f_r_prismatic_joint_effort_controller:
+#     type: effort_controllers/JointEffortController
+#     joint: f_r_ew_joint
+
+
+#   r_l_prismatic_joint_effort_controller:
+#     type: effort_controllers/JointEffortController
+#     joint: r_l_prismatic_joint
+   
+#   r_r_prismatic_joint_effort_controller:
+#     type: effort_controllers/JointEffortController
+#     joint: r_r_prismatic_joint

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/harco/catkin_ws/src/mobile_base/plugin/devel/setup.sh
